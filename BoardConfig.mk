@@ -132,7 +132,6 @@ BOARD_KERNEL_CMDLINE := \
     androidboot.selinux=permissive
 
 BOARD_KERNEL_BASE := 0x00000000
-BOARD_KERNEL_BINARIES := kernel
 BOARD_KERNEL_PAGESIZE := 4096
 KERNEL_DEFCONFIG := vendor/lahaina-qgki_defconfig
 KERNEL_CUSTOM_LLVM := true
