@@ -315,7 +315,7 @@ $(call inherit-product, vendor/oneplus/oneplus9rt/oneplus9rt-vendor.mk)
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service.oplus
+    vendor.qti.hardware.vibrator.service
 
 # VNDK
 PRODUCT_COPY_FILES += \
