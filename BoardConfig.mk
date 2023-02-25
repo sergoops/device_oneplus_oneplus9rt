@@ -128,7 +128,8 @@ BOARD_KERNEL_CMDLINE := \
     msm_rtb.filter=0x237 \
     pcie_ports=compat \
     service_locator.enable=1 \
-    swiotlb=0
+    swiotlb=0 \
+    androidboot.selinux=permissive
 
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_BINARIES := kernel
