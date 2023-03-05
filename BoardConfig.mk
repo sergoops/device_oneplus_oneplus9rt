@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-DEVICE_PATH := device/oneplus/oneplus9
+DEVICE_PATH := device/oneplus/oneplus9rt
 
 include build/make/target/board/BoardConfigMainlineCommon.mk
 
@@ -126,9 +126,10 @@ BOARD_KERNEL_BINARIES := kernel
 BOARD_KERNEL_PAGESIZE := 4096
 KERNEL_DEFCONFIG := vendor/lahaina-qgki_defconfig
 USE_KERNEL_AOSP_LLVM := true
+TARGET_DTS_VENDOR := oplus/martini
 
 # OTA
-TARGET_OTA_ASSERT_DEVICE := OnePlus9,oneplus9
+TARGET_OTA_ASSERT_DEVICE := OnePlus9RT,oneplus9rt
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0xC000000
