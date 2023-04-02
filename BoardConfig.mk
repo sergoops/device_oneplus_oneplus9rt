@@ -136,6 +136,7 @@ BOARD_KERNEL_BINARIES := kernel
 BOARD_KERNEL_PAGESIZE := 4096
 KERNEL_DEFCONFIG := vendor/lahaina-qgki_defconfig
 KERNEL_CUSTOM_LLVM := true
+TARGET_DTS_VENDOR := oplus/martini
 
 # OTA
 TARGET_OTA_ASSERT_DEVICE := OnePlus9RT,oneplus9rt
