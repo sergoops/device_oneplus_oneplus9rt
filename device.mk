@@ -205,15 +205,11 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    AOSPAOnePlus9ProSystemUI \
     AOSPAOnePlus9SeriesFrameworks \
     AOSPAOnePlus9SeriesSystemUI \
     AOSPAOnePlus9SystemUI \
     FrameworksResTarget \
     OnePlus9Frameworks \
-    OnePlus9ProFrameworks \
-    OnePlus9ProSettingsProvider \
-    OnePlus9ProSystemUI \
     OnePlus9SeriesCarrierConfig \
     OnePlus9SeriesFrameworks \
     OnePlus9SeriesSettings \
@@ -318,7 +314,7 @@ PRODUCT_PACKAGES += \
     update_verifier
 
 # Vendor
-$(call inherit-product, vendor/oneplus/oneplus9/oneplus9-vendor.mk)
+$(call inherit-product, vendor/oneplus/oneplus9rt/oneplus9rt-vendor.mk)
 
 # Vibrator
 PRODUCT_PACKAGES += \
