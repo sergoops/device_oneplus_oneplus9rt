@@ -81,6 +81,12 @@
         <item>40</item>
     </integer-array>
 
+    <!-- Default list of files pinned by the Pinner Service -->
+    <string-array translatable="false" name="config_defaultPinnerServiceFiles">
+        <item>"/system_ext/priv-app/DaxUI/DaxUI.apk"</item>
+        <item>"/system_ext/priv-app/daxService/daxService.apk"</item>
+    </string-array>
+
     <!-- Whether the display cutout region of the main built-in display should be forced to
          black in software (to avoid aliasing or emulate a cutout that is not physically existent).
          -->
