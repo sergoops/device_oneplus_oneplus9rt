@@ -173,7 +173,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     fstab.default \
-    init.oplus.camera.rc \
     init.oplus.display.rc \
     init.oplus.perf.rc \
     init.oplus.sensors.rc \
@@ -183,9 +182,6 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.oplus.rc \
     init.oplus.post_boot.sh
-
-PRODUCT_VENDOR_PROPERTIES += \
-    vendor.post_boot.custom=true
 
 # Keymaster
 PRODUCT_VENDOR_PROPERTIES += \
@@ -252,10 +248,6 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
-
-# Performance
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/perf/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf
 
 # Platform
 TARGET_BOARD_PLATFORM := lahaina
