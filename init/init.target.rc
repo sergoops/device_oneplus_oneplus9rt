@@ -31,6 +31,10 @@
 import /vendor/etc/init/hw/init.qti.kernel.rc
 
 on early-init
+    # Dolby
+    mkdir /data/vendor/dolby 0770 media media
+    mkdir /data/vendor/multimedia 0775 system system
+
     write /proc/sys/kernel/sched_boost 1
     wait /sys/devices/soc0/soc_id
 
