@@ -90,6 +90,12 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.qcom.bluetooth.twsp_state.enabled=false \
     vendor.hw.fm.init=0
 
+PRODUCT_VENDOR_PROPERTIES += \
+    bluetooth.hardware.power.idle_cur_ma=6 \
+    bluetooth.hardware.power.operating_voltage_mv=3700 \
+    bluetooth.hardware.power.rx_cur_ma=28 \
+    bluetooth.hardware.power.tx_cur_ma=36
+
 # Boot
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl-qti \
