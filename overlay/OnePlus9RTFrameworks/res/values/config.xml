@@ -606,5 +606,11 @@
 
     <!-- Type of the udfps long press sensor. Empty if long press is not supported. -->
     <string name="config_dozeUdfpsLongPressSensorType" translatable="false">org.lineageos.sensor.udfps</string>
+    
+    <!-- Default list of files pinned by the Pinner Service -->
+    <string-array translatable="false" name="config_defaultPinnerServiceFiles">
+        <item>"/system_ext/priv-app/DaxUI/DaxUI.apk"</item>
+        <item>"/system_ext/priv-app/daxService/daxService.apk"</item>
+    </string-array>
 
 </resources>
