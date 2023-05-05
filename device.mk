@@ -173,7 +173,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     fstab.default \
-    init.oplus.camera.rc \
     init.oplus.display.rc \
     init.oplus.perf.rc \
     init.oplus.sensors.rc \
@@ -183,9 +182,6 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.oplus.rc \
     init.oplus.post_boot.sh
-
-PRODUCT_VENDOR_PROPERTIES += \
-    vendor.post_boot.custom=true
 
 # Keymaster
 PRODUCT_VENDOR_PROPERTIES += \
