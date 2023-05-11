@@ -129,14 +129,15 @@
         <param key="PHONE_MIC_LOOPBACK" value="TX3_CDC_DMA Hostless"/>
         <param key="HEADSET_MIC_LOOPBACK" value="TX4_CDC_DMA Hostless"/>
         <!--#Jianfeng.Qiu@PSW.MM.AudioDriver.HAL, 2019/08/22, Add for oplus config end-->
-        <!--wei.hua@MM.AudioDriver.OPLUS_FEATURE_4CH_AEC, 2019/12/20, Add for 4ch aec -->
-        <param key="noise_reduction_aec" value="enable"/>
+        <!--Yang.chao@MM.AudioDriver.OPLUS_FEATURE_4CH_AEC, 2021/09/28, remove 4ch aec -->
+        <!--param key="noise_reduction_aec" value="enable"/ -->
         <!--wei.hua@MM.AudioDriver.OPLUS_FEATURE_4CH_AEC, 2019/12/20, Add for 4ch aec end-->
         <!--webber.yan@MM.AudioService.OPLUS_FEATURE_SWITCH_MIC, 2020/12/18, Add for camcorder switch mic -->
         <param key="camcorder_switch_mic" value="true"/>
         <!--webber.yan@MM.AudioService.OPLUS_FEATURE_SWITCH_MIC, 2020/12/18, Add for camcorder switch end -->
         <!--#Jianfeng.Qiu@MULTIMEDIA.AUDIODRIVER.HAL.OPLUS_FEATURE_LVAC_SUPPORT, 2021/04/30, Add for AP LVACFS-->
         <param key="record_use_ap_lvacfs" value="enable"/>
+        <param key="record_track_support" value="true"/>
         <!--#Jianfeng.Qiu@MULTIMEDIA.AUDIODRIVER.HAL, 2021/04/30, Add for AP LVACFS end-->
         <!--#Yongzhi.Zhang@PSW.MM.AudioDriver.HAL.413701, 2020/09/22, Add for old audiovoice scence-->
         <param key="use_audiovoice_scence" value="false"/>
@@ -147,12 +148,15 @@
         <param key="enable_hp_impedance_match" value="true"/>
         <param key="hp_impedance_match_threshold" value="90"/>
         <!--Run.Zhang@MULTIMEDIA.AUDIODRIVER.FEATURE, 2021/04/09 , Add for headphone volume match to impedance end-->
-        <!-- liuhaituo@MULTIMEDIA.AUDIODRIVER.FEATURE, 2022/02/16, Add adsp ssr interfac start -->
-        <param key="adsp_ssr_support" value="yes"/>
-        <!-- liuhaituo@MULTIMEDIA.AUDIODRIVER.FEATURE, 2022/02/16, Add adsp ssr interfac end -->
         <!--#Le.LI@MULTIMEDIA.AUDIODRIVER.HAL, 2021/7/12, Add for disable dualheadphone enable-->
         <param key="dualheadphone_enable_switch" value="false"/>
         <!--#Le.LI@MULTIMEDIA.AUDIODRIVER.HAL, 2021/7/12, Add for disable dualheadphone enable end-->
+        <!-- Run.Zhang@MULTIMEDIA.AUDIODRIVER.OPLUS_FEATURE_OPREC_SUPPORT, 2022/03/02, Add for voice car downlink mute -->
+        <param key="enable_car_vc_dl_mute" value="true"/>
+        <!-- Run.Zhang@MULTIMEDIA.AUDIODRIVER.OPLUS_FEATURE_OPREC_SUPPORT, 2022/03/02, Add for voice car downlink mute end -->
+        <!-- liuhaituo@MULTIMEDIA.AUDIODRIVER.FEATURE, 2022/02/16, Add adsp ssr interfac start -->
+        <param key="adsp_ssr_support" value="yes"/>
+        <!-- liuhaituo@MULTIMEDIA.AUDIODRIVER.FEATURE, 2022/02/16, Add adsp ssr interfac end -->
     </config_params>
     <gain_db_to_level_mapping>
         <gain_level_map db="-59" level="5"/>
@@ -259,9 +263,6 @@
         <device name="SND_DEVICE_IN_VOICE_REC_DMIC_STEREO" acdb_id="109"/>
         <device name="SND_DEVICE_IN_VOICE_REC_DMIC_FLUENCE" acdb_id="109"/>
         <!--Yongzhi.Zhang@MULTIMEDIA.AUDIODRIVER.HAL, 2020/08/31, Add for force acdb id END -->
-        <!-- liuhaituo@MULTIMEDIA.AUDIODRIVER.FEATURE, 2021/11/16, Add special input device for qcom qva -->
-        <device name="SND_DEVICE_IN_QVA_UNPROCESS_MIC" acdb_id="25"/>
-        <!-- liuhaituo@MULTIMEDIA.AUDIODRIVER.FEATURE, 2021/11/16, Add special input device for qcom qva END -->
     </acdb_ids>
     <backend_names>
         <device name="SND_DEVICE_OUT_HEADPHONES" backend="headphones" interface="RX_CDC_DMA_RX_0"/>
@@ -463,9 +464,6 @@
         <!--zhangrun@MULTIMEDIA.AUDIODRIVER.OPLUS_FEATURE_VIDEO_SWITCH, 2021/02/22, Add for Video sound to switch START -->
         <device name="SND_DEVICE_IN_HANDSET_DMIC_STEREO_SWITCH" interface="TX_CDC_DMA_TX_3"/>
         <!--zhangrun@MULTIMEDIA.AUDIODRIVER.OPLUS_FEATURE_VIDEO_SWITCH, 2021/02/22, Add for Video sound to switch END -->
-        <!-- liuhaituo@MULTIMEDIA.AUDIODRIVER.FEATURE, 2021/11/16, Add special input device for qcom qva -->
-        <device name="SND_DEVICE_IN_QVA_UNPROCESS_MIC" interface="TX_CDC_DMA_TX_3"/>
-        <!-- liuhaituo@MULTIMEDIA.AUDIODRIVER.FEATURE, 2021/11/16, Add special input device for qcom qva END -->
     </backend_names>
     <!-- below values are for ref purpose to OEM, doesn't contain actual hardware info on MTP -->
     <microphone_characteristics>
