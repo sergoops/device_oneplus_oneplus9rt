@@ -206,6 +206,10 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_PACKAGES += \
    android.hardware.keymaster@4.1.vendor
 
+# Display
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/display/display_id_4630946728207028354.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946728207028354.xml
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2.vendor
