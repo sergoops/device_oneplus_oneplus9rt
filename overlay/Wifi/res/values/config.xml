@@ -55,8 +55,16 @@
 
     <!-- Boolean indicating supports for quick connect -->
     <bool translatable="false" name="config_wifi_framework_enable_quick_connect">true</bool>
+    
+    <!-- Boolean indication supports wifi 6ghz -->
+    <bool name="config_wifi6ghzSupport">true</bool>
+    <bool name="config_wifiSoftap6ghzSupported">true</bool>
 
     <!-- Integer for Wifi Partial scan results fetching period(in ms) -->
     <integer translatable="false" name="config_wifi_partial_scan_results_fetching_period_ms">1000</integer>
+    
+    <!-- Configure wifi tcp buffersizes in the form:
+         rmem_min,rmem_def,rmem_max,wmem_min,wmem_def,wmem_max -->
+    <string name="config_wifi_tcp_buffers" translatable="false">524288,1048576,2097152,524288,1048576,4194304</string>
 
 </resources>
