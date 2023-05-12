@@ -68,4 +68,7 @@
     <!-- Whether device has an alert slider. -->
     <bool name="config_hasAlertSlider">true</bool>
 
+    <!-- Fingerprint from stock ROM -->
+    <string name="config_stockFingerprint" translatable="false">OnePlus/MT2110_CH/OP5154L1:13/TP1A.220624.014/R.202208300507:user/release-keys</string>
+
 </resources>
