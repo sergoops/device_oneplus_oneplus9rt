@@ -26,29 +26,8 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "init.oplus.camera.rc",
-    src: "init.oplus.camera.rc",
-    sub_dir: "init",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "init.oplus.display.rc",
-    src: "init.oplus.display.rc",
-    sub_dir: "init",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "init.oplus.perf.rc",
-    src: "init.oplus.perf.rc",
-    sub_dir: "init",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "init.oplus.sensors.rc",
-    src: "init.oplus.sensors.rc",
+    name: "init.oplus.rc",
+    src: "init.oplus.rc",
     sub_dir: "init",
     vendor: true,
 }
@@ -72,10 +51,4 @@ prebuilt_etc {
     filename: "ueventd.rc",
     src: "ueventd.oplus.rc",
     device_specific: true,
-}
-
-sh_binary {
-    name: "init.oplus.post_boot.sh",
-    src: "init.oplus.post_boot.sh",
-    vendor: true,
 }
