@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-DEVICE_PATH := device/oneplus/oneplus9
+DEVICE_PATH := device/oneplus/oneplus9rt
 
 include build/make/target/board/BoardConfigMainlineCommon.mk
 
@@ -128,7 +128,7 @@ KERNEL_DEFCONFIG := vendor/lahaina-qgki_defconfig
 USE_KERNEL_AOSP_LLVM := true
 
 # OTA
-TARGET_OTA_ASSERT_DEVICE := OnePlus9,oneplus9
+TARGET_OTA_ASSERT_DEVICE := OP5155L1,OP5154L1
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0xC000000
