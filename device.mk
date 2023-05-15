@@ -286,6 +286,8 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.sys.fuse.passthrough.enable=true \
     ro.incremental.enable=yes
 
+PRODUCT_CHARACTERISTICS := nosdcard
+
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
 # System Helper
