@@ -238,7 +238,6 @@ PRODUCT_PACKAGES += \
     OnePlus9RTFrameworks \
     OnePlus9RTFrameworksAOSPA \
     OnePlus9RTSettings \
-    OnePlus9RTSettingsProvider \
     OnePlus9RTSystemUI \
     OnePlus9RTSystemUIAOSPA \
     WifiResTarget
