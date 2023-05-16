@@ -3,8 +3,8 @@
     <!-- Global Brightness-Nit mapping -->
     <screenBrightnessMap>
         <point>
-            <value>0.0002442</value>
-            <nits>2.0</nits>
+            <value>0.0017</value>
+            <nits>2.5</nits>
         </point>
         <point>
             <value>0.4998779</value>
@@ -23,12 +23,12 @@
             <timeMaxSecs>300</timeMaxSecs>
             <timeMinSecs>30</timeMinSecs>
         </timing>
-        <thermalStatusLimit>critical</thermalStatusLimit>
-        <allowInLowPowerMode>false</allowInLowPowerMode>
+        <thermalStatusLimit>moderate</thermalStatusLimit>
+        <allowInLowPowerMode>true</allowInLowPowerMode>
         <minimumHdrPercentOfScreen>0</minimumHdrPercentOfScreen>
         <sdrHdrRatioMap>
             <point>
-                <sdrNits>2.0</sdrNits>
+                <sdrNits>2.5</sdrNits>
                 <hdrRatio>2.25</hdrRatio>
             </point>
             <point>
