@@ -118,7 +118,9 @@ class SysfsPollingOneShotSensor : public OneShotSensor {
     int mPollFd;
 };
 
-const std::string kTsUdfpsPressedPath = "/sys/devices/platform/soc/990000.i2c/i2c-7/7-004b/udfps_pressed";
+const std::string kTsPath = "/sys/devices/platform/soc/990000.i2c/i2c-7/7-004b/";
+
+const std::string kTsUdfpsPressedPath = kTsPath + "udfps_pressed";
 
 class UdfpsSensor : public SysfsPollingOneShotSensor {
   public:
@@ -127,6 +129,17 @@ class UdfpsSensor : public SysfsPollingOneShotSensor {
               sensorHandle, callback, kTsUdfpsPressedPath,
               "UDFPS Sensor", "co.aospa.sensor.udfps",
               static_cast<SensorType>(static_cast<int32_t>(SensorType::DEVICE_PRIVATE_BASE) + 1)) {}
+};
+
+const std::string kTsDoubleTapPath = kTsPath + "double_tap_pressed";
+
+class DoubleTapSensor : public SysfsPollingOneShotSensor {
+  public:
+    DoubleTapSensor(int32_t sensorHandle, ISensorsEventCallback* callback)
+        : SysfsPollingOneShotSensor(
+              sensorHandle, callback, kTsDoubleTapPath,
+              "Double Tap Sensor", "co.aospa.sensor.double_tap",
+              static_cast<SensorType>(static_cast<int32_t>(SensorType::DEVICE_PRIVATE_BASE) + 2)) {}
 };
 
 }  // namespace implementation
