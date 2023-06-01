@@ -179,6 +179,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     fstab.default \
+    init.oplus.hw.rc \
+    init.oplus.hw.rc.recovery \
     init.oplus.rc \
     init.oplus.telephony.rc \
     init.qti.ufs.rc \
