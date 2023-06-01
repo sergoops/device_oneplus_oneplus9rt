@@ -24,6 +24,14 @@ on boot
     # Sensors
     chown system system /sys/devices/platform/soc/soc:sensor_fb/adsp_notify
 
+    # Double Tap Sensor
+    chown system system /sys/devices/platform/soc/990000.i2c/i2c-7/7-004b/double_tap_pressed
+    chmod 0660 /sys/devices/platform/soc/990000.i2c/i2c-7/7-004b/double_tap_pressed
+
+    # Udfps Sensor
+    chown system system /sys/devices/platform/soc/990000.i2c/i2c-7/7-004b/udfps_pressed
+    chmod 0660 /sys/devices/platform/soc/990000.i2c/i2c-7/7-004b/udfps_pressed
+
 on fs
     # Trigger touchpanel firmware update
     write /proc/touchpanel/tp_fw_update 0
