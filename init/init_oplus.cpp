@@ -38,6 +38,7 @@ void vendor_load_properties() {
     switch (prjname) {
         case 20820: // CN
             OverrideProperty("ro.product.product.model", "MT2110");
+            OverrideProperty("ro.product.product.device", "OP5154L1");
             break;
         case 20821: // IN
             OverrideProperty("ro.product.product.model", "MT2111");
