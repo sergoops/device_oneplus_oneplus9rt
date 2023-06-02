@@ -14,6 +14,10 @@ genfscon sysfs /kernel/oplus_display    u:object_r:vendor_sysfs_graphics:s0
 # Fingerprint
 genfscon proc /fp_id    u:object_r:vendor_proc_fingerprint:s0
 
+# Sensors
+genfscon sysfs /devices/platform/soc/990000.i2c/i2c-7/7-004b/double_tap_pressed         u:object_r:vendor_sysfs_sensors:s0
+genfscon sysfs /devices/platform/soc/990000.i2c/i2c-7/7-004b/udfps_pressed              u:object_r:vendor_sysfs_sensors:s0
+
 # Versioning
 genfscon proc /oplusVersion    u:object_r:vendor_proc_oplus_version:s0
 
