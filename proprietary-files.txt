@@ -1041,8 +1041,6 @@ vendor/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so|5df4a49fde62
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|b08ed1ebb4298f9c9629ead4c8e088d7d543bc18
 
 # Charging
-vendor/bin/init.qti.chg_policy.sh
-vendor/etc/charger_fstab.qti
 vendor/etc/charger_fw_fstab.qti
 
 # Config Store
