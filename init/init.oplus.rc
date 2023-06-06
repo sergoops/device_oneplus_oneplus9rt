@@ -56,6 +56,10 @@ on property:vendor.post_boot.parsed=1
     write /dev/cpuset/background/cpus 0-1
     write /dev/cpuset/system-background/cpus 0-3
 
+    # Dex2oat
+    setprop dalvik.vm.dex2oat-cpu-set 0,1,2,3,4,5,6
+    setprop dalvik.vm.dex2oat-threads 6
+
 service oplus_sensor_fb /odm/bin/oplus_sensor_fb
     user system
     group system
