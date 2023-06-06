@@ -50,6 +50,13 @@ on fs
     # Trigger touchpanel firmware update
     write /proc/touchpanel/tp_fw_update 0
 
+on post-fs-data
+    # Bind mount fastrpc_shell_3 for labelling
+    mkdir /mnt/vendor/dsp 0770 root root
+    copy /vendor/dsp/cdsp/fastrpc_shell_3 /mnt/vendor/dsp/fastrpc_shell_3
+    chmod 0644 /mnt/vendor/dsp/fastrpc_shell_3
+    mount none /mnt/vendor/dsp/fastrpc_shell_3 /vendor/dsp/cdsp/fastrpc_shell_3 bind
+
 on property:ro.boot.prjname=*
     # Display
     setprop ro.separate.soft ${ro.boot.prjname}
