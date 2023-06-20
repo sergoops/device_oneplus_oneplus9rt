@@ -37,7 +37,7 @@ prebuilt_etc {
     name: "init.oplus.rc",
     src: "init.oplus.rc",
     sub_dir: "init",
-    vendor: true,
+    device_specific: true,
 }
 
 prebuilt_etc {
