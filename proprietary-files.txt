@@ -26,10 +26,10 @@ vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 vendor/firmware/a660_gmu.bin|607402e7c1c49f486258e5e02780e74fcf7311e1
 vendor/firmware/a660_sqe.fw|8e6becfbcff6ff6e64b5edb6f135cc6f656d4ee1
 vendor/firmware/a660_zap.b00|f8df59bf1c76d6cceb152cfd58142af4e0cdabb5
-vendor/firmware/a660_zap.b01|d1d53a69c427d86d627ed47f91ea3dffca381b0c
+vendor/firmware/a660_zap.b01|7f091268d436ad2b2098d5617ae345aacedb344a
 vendor/firmware/a660_zap.b02|bcbdf56fca034c66a9e44242587ed25a1ffe2abe
-vendor/firmware/a660_zap.elf|1d5c45f1531f94d093f8ba8bef0a7e5bcd75a96e
-vendor/firmware/a660_zap.mdt|d1d3294922d6640421c6ce5e1fe3a1dda59750d8
+vendor/firmware/a660_zap.elf|ef485393f8088a40812308b711b81c10558f8a0a
+vendor/firmware/a660_zap.mdt|242742be9bd09b44048b40ce7f4ab9b28c6bb452
 
 # Audio - OOS
 odm/etc/acdbdata/Audio_Parameter_Version.txt|c0244a2daaa2ab48feb842aab3329f7a2b3b7320
@@ -75,7 +75,7 @@ odm/etc/lvacfs_params/3mic/audiozoom_1.txt|e7ea9b226ecdf911061024839e40b39cef724
 odm/etc/lvacfs_params/3mic/audiozoom_2.txt|e38300bf6f20942af2b2dab3d71f778da917e452
 odm/etc/lvacfs_params/3mic/audiozoom_3.txt|0706b97bbdddf4be24ac62bd8d940565e8b189a4
 odm/firmware/tfa98xx.cnt|196901407090376497cb057443add8457ebe8e14
-odm/lib/libaudioEngineerTest.so|df66ea4619485f76d8865f018b5923d2945a44da
+odm/lib/libaudioEngineerTest.so|9076a2f1b36f84893182fbf7f449fc74088a793e
 odm/lib/lib_lvacfs.so|63211d044d7ec49dd2d1f8935d01af365021cdad
 odm/lib/liblvacfs_wrapper.so|1de48c1f0be4d2e568e282f042515fbe5d6db9d3
 vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd|247fa73e3b22ac1d8b98a601a9583bfd1e113879
@@ -85,7 +85,7 @@ vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd|4160e57
 vendor/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd|b1d2f43214d8509cf5f3ca20092c7ca475be684e
 vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.10.pmd|84537b77f8bdb72e23420f417c2d0a24da7a71a0
 vendor/etc/acdbdata/adsp_avs_config.acdb|e7aed8088e8c6dccacff231a1c1fe83936b15cd0
-vendor/lib/hw/audio.primary.lahaina.so|b1a8d7844facd639e4a209ca39e35f6c741e6261
+vendor/lib/hw/audio.primary.lahaina.so|650c6b03755502c1c96c8b3125152582b28f6e60
 vendor/lib/hw/sound_trigger.primary.lahaina.so|20a5f682585af83273152d80186cf01bc09eec55
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so|f357ce20b069feac7e8c87f3615d9201c00aff7b
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so|1f568f739f627889ae24f1fc22e62ebb2d264eb5
@@ -112,7 +112,7 @@ vendor/lib/libOmxMpeghDecSw.so|460f2769365c31b08b8e3cb72a2c00e5d1a3f089
 vendor/lib/libOmxMpeghEncSw.so|261e1157025689f11ba865bca7f00c9c6267014f
 vendor/lib/libOmxQcelp13Dec.so|bcac6ec5c50055fe2b19e0cf9ff86a3a8e262265
 vendor/lib/libOmxWmaDec.so|f97abca11925f7f1486055cafd10e34cd7f5cf27
-vendor/lib/liba2dpoffload.so|16c8b6b3c30bec81a0c529e0e2cb77f2c33ce425
+vendor/lib/liba2dpoffload.so|1a2adb389988eec5c0d110b8e2e82ce4e2a78807
 vendor/lib/libacdb-fts.so|db88d3aa5564db743c3b85a01aac7028967514be
 vendor/lib/libacdbloader.so|288d084cd196dc11fda67ed48c8ecc79033e7090
 vendor/lib/libacdbrtac.so|665ef08b1a668987bff90643327c972d22e4297d
@@ -135,12 +135,12 @@ vendor/lib/libgcs-ipc.so|7f79e3683ed808ae5e67029bb6542b14fa6a86a6
 vendor/lib/libgcs-osal.so|9ac399fbee4e73561c0a3f397fe6ffdc9c42892c
 vendor/lib/libgcs.so|3d4db7d5262064846a27b9169fa6d66a78a2c634
 vendor/lib/libgui1_vendor.so|0072e29818f05e190314fae459294c2111089eff
-vendor/lib/libhdmipassthru.so|4930a3c00d58af0a98f2ab03253ac2b662389955
+vendor/lib/libhdmipassthru.so|4a0088f6ad23a830dc121e2bb4fb548f01efda8b
 vendor/lib/liblistensoundmodel2.so|25b62bedc02e5584706c410b76e4f1874dd4ea46
 vendor/lib/libmulawdec.so|f72724da37b96a8cdce1a9e62d935c593d222096
 vendor/lib/libqtigef.so|c7d588a80c3aac52b160db6ded1528bb8b8fd7bd
 vendor/lib/libsmwrapper.so|6d7093844a4e1091ee4bfe617ed22e5496544232
-vendor/lib/libssrec.so|fff8b6ec324d6b68a68eb28cd5dab4500c019b18
+vendor/lib/libssrec.so|a68dbd0a1466c04a21de2829a9892f759340d0a2
 vendor/lib/libstagefright_soft_qtiflacdec.so|884a7db483e6c7cfa19c87d7cdb9139366d037e6
 vendor/lib/libsurround_3mic_proc.so|3c970233b858df5c048941dd931a6b5212767afa
 vendor/lib/vendor.oplus.hardware.extcamera@1.0.so|837df09bb282bd18c09bed5196d51ea0b9d0c954
@@ -183,7 +183,7 @@ vendor/lib64/libgcs-calwrapper.so|21da1d8ef618c9af28b577ea90fd24e66658c0d7
 vendor/lib64/libgcs-ipc.so|98a4b5f9385056deaa980ada516af7a51048dd4f
 vendor/lib64/libgcs-osal.so|608cb17ee198f331ab175c52cb852754d695138c
 vendor/lib64/libgcs.so|fefbf2445b5289a6abb83ec2fa8443094934791e
-vendor/lib64/libhdmipassthru.so|8ccd67a2cbc37ee282e5e4072d97297ea37071a3
+vendor/lib64/libhdmipassthru.so|ce625ea84e64bd199ea7e3e6a16f33c0dcc86e8d
 vendor/lib64/liblistensoundmodel2.so|6c66a3fdb2d6ddbceb274cf5b77adaaf9099fb60
 vendor/lib64/libmulawdec.so|fcfd2175fbcf802d5282d0e330c731a7dd3cd3f5
 vendor/lib64/libqtigef.so|09fb25411b4767ab2f7eebdccd7cc7fd9a85feee
@@ -307,7 +307,7 @@ vendor/lib64/vendor.qti.hardware.cvp@1.0.so
 
 # CVP - OOS
 vendor/firmware/evass.b00|2595bce1132e8f9bf1832d6aea7c067561095481
-vendor/firmware/evass.b01|d0d10543fbd1ecf3e80e6f4e4f2975de5af216fe
+vendor/firmware/evass.b01|9752034d19a5ece1df4c44d8c5a8affac0279958
 vendor/firmware/evass.b02|a7966bf9596be7ab4e9b99156695aeaa34d4ef0a
 vendor/firmware/evass.b03|3783589ec15b7d583e2f845a4b0b86d0826b2fb1
 vendor/firmware/evass.b04|86a5ed4d22759036806d9321f8e509628f64c5b6
@@ -326,8 +326,8 @@ vendor/firmware/evass.b16|da39a3ee5e6b4b0d3255bfef95601890afd80709
 vendor/firmware/evass.b17|da39a3ee5e6b4b0d3255bfef95601890afd80709
 vendor/firmware/evass.b18|da39a3ee5e6b4b0d3255bfef95601890afd80709
 vendor/firmware/evass.b19|1ceaf73df40e531df3bfb26b4fb7cd95fb7bff1d
-vendor/firmware/evass.mbn|1a276021aa93a1933a84b2fc2c44ffc72c62fd38
-vendor/firmware/evass.mdt|13c6a5d1ef293d9b467c2926d49e279629cd94a7
+vendor/firmware/evass.mbn|a55d677402ab4a06924fb6cf80cedae606c3e3e6
+vendor/firmware/evass.mdt|5c5e35b02c7d5b46cc4dae66d6f1743e23bcfb0e
 
 # Camera - OOS
 odm/etc/camera/anc/merged_model|61394a774f909426b2ad981c53739cc34210abc9
@@ -342,13 +342,13 @@ odm/etc/camera/cfr_bin/CFR_imx766.bin|28ddf0fd6209ee002d18a7221d9a7dd74538704c
 odm/etc/camera/cfr_bin/CFR_imx766_uw.bin|961543b1294ac00826ff968e36ebf145e19c41ed
 odm/etc/camera/cfr_bin/CFR_s5k3m5.bin|32a01653b28b92d2426539f14e7e31fcab0f05d2
 odm/etc/camera/config/camera_unit_config|a6a10d18d7fc8473c5bb3ca2c52b98b68761c33d
-odm/etc/camera/config/camera_unit_feature_config.protobuf|9402261a9fe5c1902842b47f3ce68bbfe6d4c944
+odm/etc/camera/config/camera_unit_feature_config.protobuf|936328d1ab88b4d208663c17fccf22ee0c1441b5
 odm/etc/camera/config/imx471|4bf123cb75128448316d12acb5cb5936776d720d
 odm/etc/camera/config/imx481|8a1dba5a520b5ff67a9686f79c6ddd1ff4b60a62
 odm/etc/camera/config/imx766|9729f36e93bb77e1c69c47a6c35543c6fd21d795
-odm/etc/camera/config/oplus_camera_algo_switch_config|db52a219955492585af6b5a93127aab1cfbe2aec
-odm/etc/camera/config/oplus_camera_aps_config|2ec7095f57d7d597f1105484767ad1ff483adeb8
-odm/etc/camera/config/oplus_camera_config|c136356efe2f0e61f8eddb45c11924b6bb759e0d
+odm/etc/camera/config/oplus_camera_algo_switch_config|89ff6f8fd21f57a1385a52f5aa1c45f280b900e7
+odm/etc/camera/config/oplus_camera_aps_config|99064da806fd9b09ac44a23716ed16e320b03ab7
+odm/etc/camera/config/oplus_camera_config|c95a43c24cb17e464c9fa494f44e08dbc75548ac
 odm/etc/camera/config/ov02b|9729f36e93bb77e1c69c47a6c35543c6fd21d795
 odm/etc/camera/config/video_beauty_default_config|ca7e91c3f627868fb1de0bea7db9b64a741fc2d0
 odm/etc/camera/darksight/darksight_main.bin|98373da3b705f34d4d3578a1793fbc8a61db15f1
@@ -756,7 +756,7 @@ odm/etc/camera/tonemap/tonemap_lut_6|285d2345fc48c30e63225c827601061a29defb30
 odm/etc/camera/tonemap/tonemap_lut_7|ca6098e12166e3830fe30d9788be10a283755e4b
 odm/etc/camera/tonemap/tonemap_lut_8|8a25c8bf43bad6c4ab8928959dbc80d3ffdffde2
 odm/etc/camera/tonemap/tonemap_lut_9|e7eebd43c4d3d5d399ea531aea23f787cc97becb
-odm/etc/camera/CameraHWConfiguration.config|b90d2873d2b050bf2127c254e3061e2a183fab38
+odm/etc/camera/CameraHWConfiguration.config|c33e3f706dd936f338c918173e53b793ddd3e20d
 odm/etc/camera/anc_cl_kernel.cache|7c483eedb83b50476042d1e78229ec5f355a8312
 odm/etc/camera/anc_cl_kernel_ins.cache|653d928ee059b4d17a76eb30740206e7b518bc08
 odm/etc/camera/camera_engmode.xml|2255fb68881534f3eb490de519e0ddacb83b865a
@@ -765,7 +765,7 @@ odm/etc/camera/eis_camera.vcfg|d2aeb2cae54630a34c3c1a497972c0cf27dcde08
 odm/etc/camera/fb_default|dc5b2edc6b2bf5a5a81466b75e8be520a81a98f5
 odm/etc/camera/fdc_cl.cache|64f698c60165482e86eda27c59d7d72f11ec30c9
 odm/etc/camera/fdc_lite_cl.cache|4e33b2d00c0d597ab716d7b0c1dc8a6fb69fe754
-odm/etc/camera/fwk_config.json|b51d8b526a0d3183281a7a1c647aaa37a377f416
+odm/etc/camera/fwk_config.json|0213f6cdbedf58ecb5860041d27ee69f9c46b5fa
 odm/etc/camera/gasryuv_1.2_wp.model|9841ddf3979ba69bf4e21be32de94c9155dd7a9e
 odm/etc/camera/model_fdc.data|c96463b6bf2b9ffdbe37dfd5a966de8367d290db
 odm/etc/camera/mtStereoParams.bin|8bc93ce68f4e24cf9cd53b174c1346858d3ebf30
@@ -778,7 +778,7 @@ odm/etc/vintf/manifest/manifest_oplus_cameraextension_aidl.xml|26cae610d96fcb2de
 odm/lib/libDeVIS.so|158bfaeb90dea3290f9c3141c2cf918c0b81db0f
 odm/lib/libc++_shared.so|1ec35a25d92cfc44994d696c2c1f623106888687
 odm/lib64/camera/components/com.arcsoft.node.eisv2.so|9b338385ebcf29d0394b774faad9e4dc64a41c01
-odm/lib64/camera/components/com.arcsoft.node.smooth_transition.so|ba385d7a9d0b083b69addaafd6009a1a94d363de
+odm/lib64/camera/components/com.arcsoft.node.smooth_transition.so|18715264a09e454065da7ac2852129b330940a6f
 odm/lib64/camera/components/com.oplus.node.pilot.so|9a5812be40ae0180c3f83ad8aeedc12a166773c4
 odm/lib64/camera/components/com.oplus.node.preview.so|94509c13bcdb2c3769fad4cd96562d9d565b8ece
 odm/lib64/camera/components/com.oplus.node.videoenhance.so|1b8c3eb6f014e383e21b4b66b0d44cfc300f371f
@@ -800,8 +800,8 @@ odm/lib64/camera/com.qti.tuned.sm8350_shine_ov02b_20820.bin|cfd53661bb12d2c600a9
 odm/lib64/camera/com.qti.tuned.sm8350_sunny_imx766_20820.bin|4cdd3a0d64ccdd8044d5ca5d50a1629f4d393844
 odm/lib64/camera/com.qti.tuned.sm8350_truly_imx471_20820.bin|9b5b884ccc14f9e3bfa7969dbe1ce1f3ee88c191
 odm/lib64/hwconfigurationutiltest|ef32d88fcaf3756b5665462e189406a7b8b127c0
-odm/lib64/libAlgoInterface.so|7c19e809b5f9167ca46e730c4ec3622e69d0ed4c
-odm/lib64/libAlgoProcess.so|a7ddc2382200c93d7b3ec337589c117ce659310a
+odm/lib64/libAlgoInterface.so|c42050f5794fdcb52ac58464ec6f3130c00e41b3
+odm/lib64/libAlgoProcess.so|0dfc41544d095ae4543c9072b450ac862c3e4a6d
 odm/lib64/libAncSegmentSdk.so|d464040a58435c58e0441728bb127b058338432c
 odm/lib64/libCOppLceTonemapAPI.so|30129dcefe6fa848e210d2c9d284ec67dc613b83
 odm/lib64/libEIS.so|6741417cd3612445ab4595fa5b0f639bca05abed
@@ -816,7 +816,7 @@ odm/lib64/libPerfectColor.so|af639a1d9cc6bb2819ba1810d7cd9e6ac0bc43ae
 odm/lib64/libPerfectlyClearCrux.so|aee168fa44e8ef142f6cc3bac389d53e060568e1
 odm/lib64/libPerfectlyClearCruxOpt.so|bb51740007c9836de2a55e5104c4105b2cc0c1c6
 odm/lib64/libPolarrRender.so|8c96d96470fde7e8eb0ab50d0ae9cbd30e2014fe
-odm/lib64/libPreviewDecisionOld.so|289e0995f91a4b5b2d68231171a9532d69b957e3
+odm/lib64/libPreviewDecisionOld.so|6bbdd7bdf7e1dca0cbedb42ec74b9aa8894b6b59
 odm/lib64/libSNPE.so|c0d6987626b5c55c022bc9e7c6505c307e6ca3d9
 odm/lib64/libSNPE_G.so|11ba8cf9522ff49013cad25b229e2687fd1e0b3b
 odm/lib64/libVDBayerHDR.so|a0231ba3447d18e96194ac2255b3403e62d9791d
@@ -954,45 +954,45 @@ vendor/lib64/camera/components/com.qtistatic.stats.af.so|7222941114347bac018b6ee
 vendor/lib64/camera/components/com.qtistatic.stats.awb.so|d04047e5d7781662b39926cdd3274b60fca1921a
 vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so|3c9ef02e73447356aaae46c63f7a2875290f66f7
 vendor/lib64/camera/components/libdepthmapwrapper_secure.so|19cc9046278f39e14dc4fde665282d82fe35e88d
-vendor/lib64/hw/camera.qcom.so|f701dc81c47209830041de8ef17e9c822aef2721
-vendor/lib64/hw/com.qti.chi.override.so|1156de7a6504fc290faec02290f983d35591b7e8
-vendor/lib64/com.qti.chiusecaseselector.so|47e2bfa60fc4339c1a91d47a0fd5e275cb68c2eb
-vendor/lib64/com.qti.feature2.anchorsync.so|ba86d2575970682ab95969b4701d571ea184d98c
-vendor/lib64/com.qti.feature2.demux.so|f4b68e2f9373956d1ad085b2145cda6f2730832f
-vendor/lib64/com.qti.feature2.derivedoffline.so|f2495b4c17111b46a6845127b2504103dc40af00
-vendor/lib64/com.qti.feature2.frameselect.so|70073b23314450dd98ae0713eec776cb8c724eef
-vendor/lib64/com.qti.feature2.fusion.so|e53d2af970f9c4f7bff88ed571e17a540fdf80d1
-vendor/lib64/com.qti.feature2.generic.so|fad3a22559248650110f59370ba00803f6eb8eae
-vendor/lib64/com.qti.feature2.gs.cedros.so|885ffaeec1ca5f6706887ed6c45ec4706fe1756a
-vendor/lib64/com.qti.feature2.gs.sm8350.so|4e61d90e5073d59f62659f7a395cdfdcd5bdca23
-vendor/lib64/com.qti.feature2.hdr.so|5a98a8e2f897163c925610c7d8f829c9a43adb96
-vendor/lib64/com.qti.feature2.mcreprocrt.so|2023b7195579c9f7d996cb32542a964164ed1b50
-vendor/lib64/com.qti.feature2.memcpy.so|ba5194437acd94c8e1014656246125be93ccc088
-vendor/lib64/com.qti.feature2.mfsr.so|3e8c057496bd91302063b5532c83105e53dc567e
-vendor/lib64/com.qti.feature2.ml.so|f2a104ee17d2b1767707054b97eee46ba2a6e169
-vendor/lib64/com.qti.feature2.mux.so|c2821e2d0054656575f7baf30669dc480d022714
-vendor/lib64/com.qti.feature2.qcfa.so|44e89d71269d4ead2e70f29d719cd6e016145407
-vendor/lib64/com.qti.feature2.rawhdr.so|2b583c476dc10c6b6e3a90187a72a6e2b336991e
-vendor/lib64/com.qti.feature2.realtimeserializer.so|0af9ffe5d4da90329ed5d998740c8b022201e479
-vendor/lib64/com.qti.feature2.rt.so|d54677bb49734b4eaa2f20c2faeaae98343c00a4
-vendor/lib64/com.qti.feature2.rtmcx.so|948598fe8a67929aba6852f9790d5a81ea124bae
-vendor/lib64/com.qti.feature2.serializer.so|fa903b40d18df20010fd42d784f2be10be4aea40
-vendor/lib64/com.qti.feature2.statsregeneration.so|a2d6dba6f306c4eee47c38ee6155dbff5c98db4d
-vendor/lib64/com.qti.feature2.stub.so|c7af8c2dd3d886f16dbd4ffae9641e71a00063b1
-vendor/lib64/com.qti.feature2.swmf.so|a48a4b413541761b8d91f6e2af0edddc117990f9
+vendor/lib64/hw/camera.qcom.so|5fddc2285abcbf6a568caabc14a7efd7ba15e842
+vendor/lib64/hw/com.qti.chi.override.so|98383cfaa2c04b8601e64780ad23a8cc83fe3d3c
+vendor/lib64/com.qti.chiusecaseselector.so|ffc29093463060b4ed807bddcae45a2808f844c0
+vendor/lib64/com.qti.feature2.anchorsync.so|b8194ae358e9648651182ff1da211ae7e3f5ec17
+vendor/lib64/com.qti.feature2.demux.so|dd02cac28362ec8737d3af1628d20def3b8ed9ce
+vendor/lib64/com.qti.feature2.derivedoffline.so|efdd9a835be6b83aedded23f0cefccddcd97c0ec
+vendor/lib64/com.qti.feature2.frameselect.so|77c1b3a8f4d59260c629a1d42043350a6b08fae1
+vendor/lib64/com.qti.feature2.fusion.so|c2e7fb9f8267939f198f30e46590c4b699c816d5
+vendor/lib64/com.qti.feature2.generic.so|8c6a479c8d0c2c616bdb60fc31f1f3636546e5f5
+vendor/lib64/com.qti.feature2.gs.cedros.so|b363f98fb7f52891f8ccd711e063c2a97def4f5f
+vendor/lib64/com.qti.feature2.gs.sm8350.so|96a6d66161820c056e59c52dc15c41528400e59b
+vendor/lib64/com.qti.feature2.hdr.so|fb141309238141a3383238a52650e324dfe6069e
+vendor/lib64/com.qti.feature2.mcreprocrt.so|9477176130b8eef2efdd9788885e055f81b8bb1d
+vendor/lib64/com.qti.feature2.memcpy.so|f684996a7a11814273d06e97656c03482bcc32e7
+vendor/lib64/com.qti.feature2.mfsr.so|004dbcd27cc0a347dc6a25dd09a2cd63be186d58
+vendor/lib64/com.qti.feature2.ml.so|ef03f8af43f12d8985dfdb02e7f33940c2d82a96
+vendor/lib64/com.qti.feature2.mux.so|a4a96f9b9099e6b005e6ff6d0e789f6e4de31ed8
+vendor/lib64/com.qti.feature2.qcfa.so|1a8e8264a831467e5efa8ad6cbd0c6a95ebd592a
+vendor/lib64/com.qti.feature2.rawhdr.so|41831c75a75489d08d97cc9146019d4781555e22
+vendor/lib64/com.qti.feature2.realtimeserializer.so|c5eee1f3d8f286b01eac2e58d30b9791d565ee1e
+vendor/lib64/com.qti.feature2.rt.so|4b01c389ebe2bce0dda2bf73bbbf435d8f727c18
+vendor/lib64/com.qti.feature2.rtmcx.so|ebc2c9a9f7800ddc29b7d21a829aff8536db0efc
+vendor/lib64/com.qti.feature2.serializer.so|9dfe8026029ec788e4b80c04339e3e771e41bce7
+vendor/lib64/com.qti.feature2.statsregeneration.so|b02d7d4a92cff5a675e6490cf5fe98796e4785e3
+vendor/lib64/com.qti.feature2.stub.so|8aa6a612a427b8cbe837e8db373d4e610ba5b970
+vendor/lib64/com.qti.feature2.swmf.so|83412994c7b1ab777ca5134d3990fa14d1ffddac
 vendor/lib64/com.qti.settings.sm8350.so|d7e377f1df660360d3069cf27b15ad2896461597
 vendor/lib64/com.qti.stats.common.so|171c90cb890587862f7fd29dff23ac4a8c0a4270
 vendor/lib64/com.qualcomm.mcx.distortionmapper.so|bea9c92b3089388730659873b4b5132b4b0e03f5
-vendor/lib64/com.qualcomm.mcx.linearmapper.so|3ea80ef07eebce2b345fe565494dffe0a12f4391
-vendor/lib64/com.qualcomm.mcx.policy.mfl.so|7df7b5c205feecdc23ef69ff7b0560435f2302dd
-vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so|70965012534af2eaf384932c81765eb6a8c43b9d
+vendor/lib64/com.qualcomm.mcx.linearmapper.so|de408a2f0856570183c88a8fb01dd0fa928b8d8f
+vendor/lib64/com.qualcomm.mcx.policy.mfl.so|8194df47d4fc0fb7a7cb0b64616a99f940447230
+vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so|4a2296c3549a1d6703ff987c2d9b7fdeb5cb04e9
 vendor/lib64/libSonyIMX471RmscLibrary.so|7deb61212e4d44311e99292e61252509c0b80fa2
 vendor/lib64/libaidenoiser.so|39d3096648ca55783a0a3a6e546bba4f094bfc54
 vendor/lib64/libalsc.so|2fa3a5a43d9da27d1b9bba380b37a73a732ba215
 vendor/lib64/libbitmlengine.so|17243f9cffec35701abcf8124b70462960206fbf
 vendor/lib64/libbitmlenginev2.so|386e73ee684521966084bbc4b26d740e8b1500f0
 vendor/lib64/libcamera_nn_stub.so|532001484fc848b9813d9fd9aac07e6cc265a38d
-vendor/lib64/libcamerapostproc.so|0d9e64301d3f7c17d28e0952fbc5a4d0e8a75fdf
+vendor/lib64/libcamerapostproc.so|0b818023b3991ec8e056b3a20ceb57aae23d0e0b
 vendor/lib64/libcamxexternalformatutils.so|cb5aefb36c72c27406517101d0c0f9dcdfb2971f
 vendor/lib64/libcamxfacialfeatures.so|c4c73ee7cebc66100ed502df7d3dc7b125e30c0c
 vendor/lib64/libcamxfdalgo.so|cfa78c835cd00ba0ca3930652cefbca7af8203f4
@@ -1101,12 +1101,12 @@ vendor/bin/netmgrd|4254e808131fa3a13aec1474bb769dbd539379ff
 
 # Data - OOS
 vendor/firmware/ipa_fws.b00|1365a355064949539679b3e4308d50d0de508311
-vendor/firmware/ipa_fws.b01|97148c25d14bb976660833fe346f6df00e1fafcd
+vendor/firmware/ipa_fws.b01|b51ac47590759983720b7d77e0e9b81b7199b262
 vendor/firmware/ipa_fws.b02|de771411df81d0c4183a698746351ee0943f5901
 vendor/firmware/ipa_fws.b03|c07cfef57f8f694b4cee41e78700614efbedf2bc
 vendor/firmware/ipa_fws.b04|7aa0ec649f20af523f21c6e19014987f86f18dff
-vendor/firmware/ipa_fws.elf|4dc69d6dcf729e3a1e3d45a2a6a639675f0c13f7
-vendor/firmware/ipa_fws.mdt|7c4d8bd8b0bc4d90fb9c87ed9041e1bb4fac2e16
+vendor/firmware/ipa_fws.elf|6582e0c4ea210b8106c35e880783a7693fa1b106
+vendor/firmware/ipa_fws.mdt|2cf065a6044ab5ec4e2992de04541c33b98b073b
 
 # Diag
 vendor/bin/diag-router
@@ -1132,10 +1132,10 @@ vendor/lib64/libfastcvdsp_stub.so
 -vendor/lib64/libfastcvopt.so
 
 # Fingerprint - OOS
-odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service|fa1f16865f448b09041bfa469f80d850ec929b8c
+odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service|51c2271b1e682e8b17ff442761116d1af6695e77
 odm/bin/init.oplus.fingerprints.sh|950befd6f64d4055bf47ab066a0a1e0080e6191e
 odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc|5eead2eabcc060ce5d400a779f1e8482732b7012
-odm/lib64/anc.hal.so|4a7994a47e63365b4572f752210e1276f6b65110
+odm/lib64/anc.hal.so|e5ccddbc1cc6343ec95d00858fda264ab813b30b
 odm/lib64/hw/fingerprint.goodix_G3.default.so|2a7aa43f49cce7142f89e317980f377419939a0d
 odm/lib64/libgf_hal_G3.so|d7e5b0274a3ec9ebb8e08737774ebeb7c9110a8b
 odm/lib64/libosenseaidlhalclient.so|9e34db3c6ef5b73c67a648f0c6f4b8e57ec1b58e
@@ -1745,7 +1745,7 @@ vendor/lib64/vendor.qti.hardware.vpp@1.3.so
 vendor/lib64/vendor.qti.hardware.vpp@2.0.so
 
 # VPU - OOS
-vendor/firmware/vpu20_4v.b01|a986e03b9c522d7bdc7aab6215e09beb3ee67b33
+vendor/firmware/vpu20_4v.b01|9ec410a4941d6571b9c6ceb680a47daf37fc1d40
 vendor/firmware/vpu20_4v.b02|2756850def9b5d077cc285ace8feed8896a6526e
 vendor/firmware/vpu20_4v.b03|7772b18b16e520641e8051fd6284384e9b0e1939
 vendor/firmware/vpu20_4v.b04|7b902e71e9d71fa576a278e76d5c83bedfac9ac4
@@ -1764,8 +1764,8 @@ vendor/firmware/vpu20_4v.b16|da39a3ee5e6b4b0d3255bfef95601890afd80709
 vendor/firmware/vpu20_4v.b17|da39a3ee5e6b4b0d3255bfef95601890afd80709
 vendor/firmware/vpu20_4v.b18|da39a3ee5e6b4b0d3255bfef95601890afd80709
 vendor/firmware/vpu20_4v.b19|c1756e0567d10a1173f481cd367ff4637b2dd77f
-vendor/firmware/vpu20_4v.mbn|6f8ff8fa2a455d35d837d9627e4e354beac7e84c
-vendor/firmware/vpu20_4v.mdt|ff11957476ef9762d5e2ce03cc09beeada1ac4da
+vendor/firmware/vpu20_4v.mbn|52fd7c26ea7d2b1f584c37e43cfb38d960ff9037
+vendor/firmware/vpu20_4v.mdt|928123b84fabe35f1bb26ecf41c356f5b7812ea5
 vendor/firmware/vpu20_4v_unsigned.mbn|83429bfe2bf8fb8f19a9298a4ffc83594bbb8b90
 
 # WFD
@@ -1828,8 +1828,8 @@ vendor/etc/wifi/wpa_supplicant_overlay.conf|fd618998d3dcd4b3a408807fa629967c378a
 odm/bin/hw/android.hardware.drm@1.3-service.widevine|c86a66a295e46195c59a40e8c7d7ea3303f27b5e
 odm/etc/init/android.hardware.drm@1.3-service.widevine.rc|7801ccf2718b30ffac54c4beb88370726a4a86c6
 -odm/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
-odm/lib64/mediadrm/libwvdrmengine.so|80276e148f7cbde728317a06dd5acb6e233ac817
+odm/lib64/mediadrm/libwvdrmengine.so|f971527c8a5d9ebc4300693836dfe70b93794dc0
 odm/lib64/liboemcrypto.so|82d4db9732576e0061d34deeabc27d19e84cd510
-odm/lib64/libwvhidl.so|ee5f35626be2659a089ec2420c3fd2f4acb83244
+odm/lib64/libwvhidl.so|7af922801252f0ab5daed2d5b0e50d74b3a1d49f
 vendor/etc/oplus_Widevine_licenses.pfm|3a24c9b4db3cb2625cd83c3b600ca9adf1998dcb
 vendor/lib64/libtrustedapploader.so|e57218f85b6eb5c8dd9809c768a11ab450fb3aa2

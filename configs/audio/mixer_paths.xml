@@ -248,6 +248,10 @@
     <!-- RT Proxy Cal end -->
 
     <!-- Incall Recording -->
+    <!-- zhangrun@MULTIMEDIA.AudioDriver.HAL, 2022/01/30, add for support call record in ocar mode -->
+    <ctl name="MultiMedia2 Mixer VOC_REC_UL" value="0"/>
+    <ctl name="MultiMedia2 Mixer VOC_REC_DL" value="0"/>
+    <!-- zhangrun@MULTIMEDIA.AudioDriver.HAL, 2022/01/30, add for support call record in ocar mode end -->
     <ctl name="MultiMedia9 Mixer VOC_REC_UL" value="0" />
     <ctl name="MultiMedia9 Mixer VOC_REC_DL" value="0" />
     <ctl name="MultiMedia8 Mixer VOC_REC_UL" value="0" />
@@ -2726,8 +2730,8 @@
     </path>
 
     <path name="incall-rec-uplink-and-downlink">
-        <path name="incall-rec-uplink" />
-        <path name="incall-rec-downlink" />
+        <ctl name="MultiMedia2 Mixer VOC_REC_UL" value="1" />
+        <ctl name="MultiMedia2 Mixer VOC_REC_DL" value="1" />
     </path>
 
     <path name="incall-rec-uplink-and-downlink bt-sco">
@@ -4174,16 +4178,6 @@
     <path name="unprocessed-mic">
         <path name="unprocessed-handset-mic" />
     </path>
-
-    <!-- liuhaituo@MULTIMEDIA.AUDIODRIVER.FEATURE, 2021/11/16, Add special input device for qcom qva -->
-    <path name="qva-rec-mic">
-        <ctl name="TX DEC0 MUX" value="MSM_DMIC" />
-        <ctl name="TX DMIC MUX0" value="DMIC1" />
-        <ctl name="TX_CDC_DMA_TX_3 Channels" value="One" />
-        <ctl name="TX_AIF1_CAP Mixer DEC0" value="1" />
-        <ctl name="TX_DEC0 Volume" value="89" />
-    </path>
-    <!-- liuhaituo@MULTIMEDIA.AUDIODRIVER.FEATURE, 2021/11/16, Add special input device for qcom qva END -->
 
     <path name="unprocessed-stereo-mic">
         <path name="voice-rec-dmic-ef" />
