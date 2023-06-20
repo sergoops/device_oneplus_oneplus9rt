@@ -41,6 +41,7 @@ void vendor_load_properties() {
             break;
         case 20821: // IN
             OverrideProperty("ro.product.product.model", "MT2111");
+            OverrideProperty("ro.product.product.device", "OP5155L1");
             break;
         default:
             LOG(ERROR) << "Unexpected project name: " << prjname;
