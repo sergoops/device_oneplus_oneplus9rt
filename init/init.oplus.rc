@@ -74,6 +74,7 @@ on property:vendor.post_boot.parsed=1
     write /sys/devices/system/cpu/cpu7/cpufreq/schedutil/down_rate_limit_us 5000
 
     # CPUSets
+    write /dev/cpuset/foreground/cpus 0-6
     write /dev/cpuset/background/cpus 0-1
     write /dev/cpuset/system-background/cpus 0-3
 
@@ -141,3 +142,13 @@ service oplus_sensor_fb /odm/bin/oplus_sensor_fb
     group system
     class late_start
     oneshot
+
+service vendor.qti.hardware.display.composer /vendor/bin/hw/vendor.qti.hardware.display.composer-service
+    override
+    class hal animation
+    user system
+    group graphics drmrpc
+    capabilities SYS_NICE
+    onrestart restart surfaceflinger
+    socket pps stream 0660 system system
+    writepid /dev/cpuset/foreground/tasks
