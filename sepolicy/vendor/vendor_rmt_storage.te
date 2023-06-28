@@ -1,0 +1,3 @@
+allow vendor_rmt_storage sysfs:file read;
+allow vendor_rmt_storage vendor_proc_oplus_version:dir search;
+allow vendor_rmt_storage vendor_reserve_partition:blk_file read;
